@@ -1,19 +1,18 @@
 /* The code below centers the text of all h1's on the page. */
 h1 {
-    text-align:center;
+    text-align:left;
+    font-size: 35px;
 }
 
 /* The code below centers all images on the page and gives them a width of 400px. */
-img {
+img{
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width:400px;
+  margin-right:auto;
+  width: 600px;
 }
-
 /* The code below centers the text of all h2's on the page. */
-h2 {
-    text-align:center;
+h2 {   
+    text-align:left;
 }
 
 /* The code below aligns all the sections horizontally on the bottom. */
@@ -24,6 +23,8 @@ h2 {
 
 /* The code below a solid black border to section and puts space between them (the margin). */
 .section {
-    border: 5px black solid;
-    margin:5px;
+    border: 2px black solid;
+    margin:10px;
+    padding: 25px;
+    font-size: 20px;
 }
