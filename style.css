@@ -1,7 +1,11 @@
 /* The code below centers the text of all h1's on the page. */
 h1 {
-    text-align:center;
+    background-color: #D4ECF2;
+    text-align: center;
     font-size: 35px;
+    border: 2px #6E797C solid;
+    margin: 10px;
+    padding: 20px;
 }
 
 /* The code below centers all images on the page and gives them a width of 400px. */
@@ -9,14 +13,32 @@ img{
   display: block;
   margin-left: auto;
   margin-right:auto;
-  width: 300px;
+  width: 1000px;
+}
+#title{
+background-color: white;
+font-size: 40px;
+border: 2px black solid;
+padding: 10px;
+}
+.goodai{
+text-align: center;
+font-size: 25px
+}
+.background{
+background-image: url("https://ecdn.teacherspayteachers.com/thumbitem/Facebook-Profile-Template-3708315-1657615679/original-3708315-1.jpg");
 }
 /* The code below centers the text of all h2's on the page. */
 h2{   
     text-align:left;
 }
 #Caption{
+    background-color: white;
     text-align:center;
+    font-size: 30px;
+    border: 1px black solid;
+    margin: 10px;
+    padding: 20px;
 }
 
 /* The code below aligns all the sections horizontally on the bottom. */
@@ -26,13 +48,20 @@ h2{
 
 /* The code below a solid black border to section and puts space between them (the margin). */
 .section1, .section2, .section3 {
+    background-color: #ECECF4;
     border: 2px black solid;
     margin:10px;
     padding: 25px;
-    font-size: 40px;
+    font-size: 30px;
 }
 #Section1Text, #Section2Text, #Section3Text{
 font-size: 20px;
+}
+.navigation{
+background-color: white;
+border: 5px black solid;
+margin: 5px;
+padding: 5px;
 }
 #Section1{
 width:  450px
